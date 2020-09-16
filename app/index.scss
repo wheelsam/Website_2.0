@@ -7,7 +7,7 @@ $secondary-color:rgb(0,0,0);
 body {
     padding:0px;
     margin:0px;
-    background:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("https://images.unsplash.com/photo-1491956175078-460aea0914ca?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1550&q=80") center center;
+    background:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../images/sam2.jpg") center center;
     background-size:cover;
     width:100vw;
     height:100vh;
@@ -134,7 +134,7 @@ body {
     bottom:0;
     left:45vw;
     display:flex;
-    flex-direction: column;
+    flex-direction:column;
     justify-content:center;
     z-index:4;
     transition:0.4s ease-in-out;
@@ -199,7 +199,7 @@ body {
     display:inline-block;
     padding:8px 10px;
     border:2px solid #fff;
-    margin:0px 10px;
+    margin:10px 10px;
     border-radius:50px;
 }
 #used:hover {
